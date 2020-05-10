@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Data_Dashboard_Julie</title>
+  <title>Cloudiness</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -23,10 +24,10 @@
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="fig1temp.html">Max Temperature</a></li>
-          <li><a href="fig2Humidity.html">Humidity</a></li>
-          <li><a href="fig3cloudiness.html">Cloudiness</a></li>
-          <li><a href="fig4wind.html">Wind Speed</a></li>
+            <li><a href="fig1temp.html">Max Temperature</a></li>
+            <li><a href="fig2Humidity.html">Humidity</a></li>
+            <li><a href="fig3cloudiness.html">Cloudiness</a></li>
+            <li><a href="fig4wind.html">Wind Speed</a></li>
         </ul>
       </li>
      
@@ -39,41 +40,37 @@
  
 <div class="container-fluid bggrey ">
   <div class="row bggrey pd  ">
-  <div class="col-sm-8   ">
-    <div class="bgwhite">
-       <h1 class= "tx1"> Summary: Lattitude Vs. X <br><hr/>
-      </h1>
-       <img img class="landing" src="fig1.png" align="left" /><p class="txbasic"> The purpose of this project was to analyse how weather changes as you get closer to the equator. <br>To accomplish this analysis, I first pulled data from the OpenWeaterMap API to assemble a dataset on over 500 cities.After assembling the dataset, I used Matplotlib to plot various aspects of the weather vs. latitude. Factors  looked at include: temperature, cloudiness, wind speed, and humidity. 
-         <br>This site provides the source data and visualizations created as part of the analysis, as well as explainations and descriptions of any trends and correlations witnessed.</p>
-       <p> </p>
-       <!--<img class="fig" src="fig1.png"/>-->
-      </div>
+    <div class="col-sm-8">
+      <div class="bgwhite">
+      <h1 class= "tx1">Cloudiness<br><hr/></h1>
+      <img class="fig" src="fig3.png"/>
+     <p class="txbasic" align="left">Proin diam justo, scelerisque non felis porta, placerat vestibulum nisi. Vestibulum ac elementum massa. In rutrum quis risus quis sollicitudin. Pellentesque non eros ante. Vestibulum sed tristique massa. Quisque et feugiat risus, eu tristique felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Pellentesque varius ipsum in urna semper volutpat. Etiam ac magna scelerisque, sodales enim at, interdum nibh. Nulla nec blandit orci. Ut suscipit sollicitudin varius. Etiam ut bibendum purus, sit amet tristique lectus.</p>
     </div>
-       
+  </div>
     <div class="col-sm-4 tx  ">
       <div class="bgwhite">
       <p class="txbasic"style="text-align:center"> Visualizations <br><hr/></p></h1>
       <div class="row bggrey ">
-        
-        <div class="col-xs-3 col-sm-6 bgwhite">
+        <div class="col-sm-6 bgwhite">
           <a href="fig1temp.html"><img class="fig" src="fig1.png"/></a>
         </div>
-        <div class="col-xs-3 col-sm-6 bgwhite">
+        <div class="col-sm-6 bgwhite">
           <a href="fig2Humidity.html"> <img class="fig" src="fig2.png"/></a>
         </div>
      
-          <div class="col-xs-3 col-sm-6 bgwhite">
+          <div class="col-sm-6 bgwhite">
             <a href="fig3Cloudiness.html"> <img class="fig" src="fig3.png"/></a>
           </div>
-          <div class="col-xs-3 col-sm-6 bgwhite">
+          <div class="col-sm-6 bgwhite">
             <a href="fig4wind.html"> <img class="fig" src="fig4.png"/></a>
           </div>
         </div>
     </div>
+ 
   </div>
+ 
   </div>
 </div>
 
 </body>
 </html>
-
